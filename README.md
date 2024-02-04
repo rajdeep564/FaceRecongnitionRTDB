@@ -22,32 +22,38 @@ Install required libraries: `pip install opencv-python cvzone face_recognition f
 ### Running the Project
 
 1)Clone the repository: `git clone https://github.com/yourusername/automatic-attendance-system.git`</br>
-2)Navigate to the project directory: `cd automatic-attendance-system`
+2)Navigate to the project directory: `cd automatic-attendance-system`</br>
 3)Run the main script: `python main.py`
 
 ### Adding Your Data
 
-Ensure your student data is in the correct format. Use the add_data_to_database.py script for sample data.
-Run the script: `python add_data_to_database.py`
+Ensure your student data is in the correct format. Use the add_data_to_database.py script for sample data.</br>
+Run the script: `python add_data_to_database.py`</br>
 
 Your data is now added to the Firebase Realtime Database.
 
-Generating Face Encodings
-Place your student images in the Images folder.
+Generating Face Encodings</br>
+Place your student images in the Images folder.</br>
 
 Run the encode_generator.py script:` python encode_generator.py`
 
-use the esc button to close the software and currently the minimum time to update the attendance again is 30 seconds we can increase it accordin to our needs 
+use the esc button to close the software and currently the minimum time to update the attendance again is 30 seconds we can increase it accordin to our needs </br>
 
-The script will generate face encodings and upload images to Firebase Storage.
+The script will generate face encodings and upload images to Firebase Storage.</br>
 Project Structure
 
-main.py: Core script for the automatic attendance system.
-add_data_to_database.py: Script to add sample data to the Firebase Realtime Database.
-encode_generator.py: Script for generating face encodings and uploading images to Firebase Storage.
-serviceAccountKey.json: Firebase service account key for authentication.
-Resources/: Folder containing supporting resources (e.g., images).
-Images/: Folder for storing student images.
+**main.py**: Core script for the automatic attendance system.
+
+**add_data_to_database.py**: Script to add sample data to the Firebase Realtime Database.
+
+**encode_generator.py**: Script for generating face encodings and uploading images to Firebase Storage.
+
+**serviceAccountKey.json**: Firebase service account key for authentication.
+
+**Resources/**: Folder containing supporting resources (e.g., images).
+
+**Images/**: Folder for storing student images.
+
 Feel free to explore and modify the project as needed!
 
 ### Project sample images 
