@@ -21,7 +21,7 @@ Install required libraries: `pip install opencv-python cvzone face_recognition f
 
 ### Running the Project
 
-1)Clone the repository: `git clone https://github.com/yourusername/automatic-attendance-system.git`
+1)Clone the repository: `git clone https://github.com/yourusername/automatic-attendance-system.git`</br>
 2)Navigate to the project directory: `cd automatic-attendance-system`
 3)Run the main script: `python main.py`
 
